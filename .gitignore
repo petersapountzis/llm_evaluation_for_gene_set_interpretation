@@ -77,3 +77,47 @@ figures/LLM_name_GO_term_sim_against_random_pdf_response to X-ray.svg
 figures/LLM_GO_gene_mention_percentage.svg
 figures/GO_0010897_with_bestmatch_vennDiagram.svg
 figures/omics_LLM_JI_vs_gprofiler_JI_sep_by_similarity.svg
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# ChromaDB
+chroma_db/
+*.sqlite3
+
