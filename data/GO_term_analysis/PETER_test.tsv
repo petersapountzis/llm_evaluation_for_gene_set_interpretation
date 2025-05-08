@@ -1,0 +1,76 @@
+GO	Genes	Gene_Count	Term_Description	gpt_4_default Name	gpt_4_default Analysis	gpt_4_default Score	gpt_4_default Score bins
+GO:0048627	MEGF10 SDC1 WNT10B SOX15	4	myoblast development	Regulation of Cell Adhesion and Differentiation	"1. MEGF10 (Multiple EGF-like-domains 10) is a transmembrane protein that plays a role in the phagocytosis of apoptotic cells and cellular debris. It is also involved in myoblast fusion during muscle regeneration and repair. MEGF10's function is critical for maintaining tissue homeostasis and facilitating the clearance of dying cells.
+
+2. SDC1 (Syndecan-1) is a cell surface proteoglycan that participates in cell proliferation, cell migration, and cell-matrix interactions. It acts as a co-receptor for various growth factors and modulates signaling pathways that are essential for cellular responses. SDC1 is also implicated in the organization of the cytoskeleton and can influence cell adhesion.
+
+3. WNT10B is a member of the WNT protein family that is involved in the regulation of cell fate and patterning during development. WNT10B signaling is crucial for the regulation of osteoblastogenesis and adipogenesis, and it has been implicated in the control of stem cell pluripotency and differentiation.
+
+4. SOX15 is a member of the SOX (SRY-related HMG-box) family of transcription factors that are known to be pivotal in the regulation of embryonic development and in the determination of cell fate. SOX15 is specifically involved in the regulation of muscle differentiation and regeneration.
+
+The proteins in this system are involved in various aspects of cell adhesion, differentiation, and tissue homeostasis. MEGF10 and SDC1 contribute to cell-matrix interactions and cellular clearance, which are essential for tissue remodeling and repair. WNT10B and SOX15 are key regulators of cell differentiation, influencing the balance between stem cell maintenance and the commitment to specific cell lineages, such as osteoblasts, adipocytes, and muscle cells. The interplay between these proteins suggests a coordinated role in the regulation of cell adhesion and differentiation, particularly in the context of tissue development and regeneration."	0.85	Medium Confidence
+GO:1904888	CPLANE2 NEUROG1 GRHL2 TGFB3 EXT1 TGFBR2 TWIST1 EDNRA WDR19 MED12 TGFB2 PAX5 NDST1 FOXE1 EIF4A3 RAB23 DCANP1 TP63 WNT9B TFAP2A IFT140 GLI3 PDGFRA ZIC3 INSIG1 MMP16 CHST11 CTNNB1 NIPBL INSIG2 IRX5 NOG SIX2 TBX1 TGFBR1 RIC1 COLEC10 TIFAB FOXN3 FGFR2 RDH10 CRKL TMEM107 FOXC2 SLC39A1 SMAD2 SIX1 FREM1 RUNX2 SIX4 MTHFD1 GNA11 IRF6 MTHFD1L LHX1 NODAL PRRX1 BMP4 MSX2 TULP3 MEGF8 FGF8 CEP55 SMAD3 MMP14 SETD2 TBX15 DLX2 HOXA2 FGF4 SLC39A3 HOXA1	72	cranial skeletal system development	Craniofacial Development and Signaling Pathways Integration	"1. The proteins TWIST1, MSX2, RUNX2, and DLX2 are transcription factors with established roles in craniofacial development. They regulate the expression of genes involved in the proliferation, differentiation, and migration of cranial neural crest cells, which are essential for the formation of craniofacial structures.
+
+2. The TGF-beta signaling pathway is represented by TGFB2, TGFB3, TGFBR1, TGFBR2, and SMAD2/3. These proteins are involved in cell growth, differentiation, and extracellular matrix production, which are critical for craniofacial morphogenesis and the maintenance of tissue homeostasis.
+
+3. The WNT signaling pathway, with members such as WNT9B, CTNNB1 (beta-catenin), and LHX1, plays a pivotal role in craniofacial development by regulating cell fate determination, proliferation, and differentiation.
+
+4. The Hedgehog signaling pathway is represented by GLI3, which is involved in the patterning of craniofacial structures. Mutations in GLI3 are associated with a variety of craniofacial anomalies.
+
+5. The FGF signaling pathway, with proteins like FGF8, FGF4, and FGFR2, is crucial for the development of the face and palate, influencing cell migration, proliferation, and differentiation.
+
+6. The BMP signaling pathway, including BMP4 and NOG (Noggin), is essential for the development of the craniofacial skeleton, with roles in osteogenesis and the regulation of neural crest cell differentiation.
+
+7. The Notch signaling pathway, with proteins such as JAG1 and RBPJ, is implicated in the differentiation of craniofacial structures and is known to interact with other signaling pathways to coordinate development.
+
+8. The proteins IRF6, FOXE1, FOXC2, and TFAP2A are transcription factors that have been implicated in syndromic forms of craniofacial disorders, indicating their importance in facial development.
+
+9. The extracellular matrix (ECM) remodeling proteins, such as MMP14 and MMP16, are involved in the modulation of the ECM, which is crucial for tissue morphogenesis and craniofacial development.
+
+10. The ciliogenesis-related proteins, including IFT140, WDR19, and TMEM107, are involved in the formation and function of primary cilia, which are sensory organelles that play a role in the regulation of various signaling pathways during development.
+
+11. The proteins involved in the cholesterol biosynthesis and regulation pathway, such as INSIG1 and INSIG2, may influence craniofacial development indirectly through the modulation of lipid homeostasis and the Sonic Hedgehog pathway.
+
+To summarize, the proteins in this system are heavily involved in the intricate and coordinated processes of craniofacial development. They participate in various signaling pathways, including TGF-beta, WNT, Hedgehog, FGF, BMP, and Notch, which are integrated to regulate the proliferation, differentiation, and migration of cells necessary for the proper formation of craniofacial structures. The system also includes proteins that modulate the extracellular matrix and primary cilia, which are essential for the reception and transmission of developmental signals."	0.92	High Confidence
+GO:0019585	DCXR UGT1A9 UGT2B7 PRKCE UGT1A7 UGT2A3 SORD UGT1A10 UGT1A1 UGT1A3 UGT2A1 UGT1A5 XYLB CRYL1 UGT2B4 AKR1A1 UGT2B15 UGT2B17 UGT2A2 UGT2B28 UGT1A6 UGT2B10 UGT1A8 UGT1A4 UGT2B11 ABHD10	26	glucuronate metabolic process	Xenobiotic and Endobiotic Metabolism and Detoxification	"1. The UGT (UDP-glucuronosyltransferase) family members, including UGT1A1, UGT1A3, UGT1A4, UGT1A5, UGT1A6, UGT1A7, UGT1A8, UGT1A9, UGT1A10, UGT2A1, UGT2A2, UGT2A3, UGT2B4, UGT2B7, UGT2B10, UGT2B11, UGT2B15, UGT2B17, and UGT2B28, are central to the process of glucuronidation. This is a major phase II metabolic pathway for the detoxification and elimination of both endogenous substances (such as bilirubin and hormones) and xenobiotics (including drugs and environmental toxins). Glucuronidation enhances the solubility of hydrophobic molecules, facilitating their excretion from the body.
+
+2. AKR1A1 (Aldo-Keto Reductase Family 1 Member A1) is involved in the reduction of aldehydes and ketones to their corresponding alcohols. This enzyme plays a role in the metabolism of glyceraldehyde and detoxification of methylglyoxal, a byproduct of glycolysis.
+
+3. DCXR (Dicarbonyl/L-xylulose Reductase) is involved in the metabolism of xylulose, converting it to xylitol, which is a part of the pentose phosphate pathway. It also has a role in the detoxification of dicarbonyls, which are reactive metabolites that can cause cellular damage.
+
+4. SORD (Sorbitol Dehydrogenase) catalyzes the conversion of sorbitol to fructose, which is an important step in the polyol pathway. This pathway is implicated in diabetic complications when there is an excess of glucose that gets reduced to sorbitol.
+
+5. XYLB (Xylulose Reductase) is involved in the metabolism of xylulose, similar to DCXR, and is part of carbohydrate metabolism.
+
+6. CRYL1 (Crystallin Lambda 1) is a lactate dehydrogenase that catalyzes the interconversion of lactate and pyruvate. It is involved in the glycolytic pathway and may play a role in cell protection under stress conditions.
+
+7. ABHD10 (Abhydrolase Domain Containing 10) is a hydrolase that may be involved in the metabolism of mycophenolic acid, an immunosuppressive drug.
+
+8. PRKCE (Protein Kinase C Epsilon) is a serine/threonine kinase involved in signal transduction and may regulate various processes including metabolism, though its direct interaction with the other proteins in this system is not clear.
+
+To summarize, the majority of the proteins in this system are involved in the metabolism and detoxification of various endogenous and exogenous compounds. The UGT family members are central to this process, with other enzymes contributing to the metabolism of carbohydrates and reactive metabolites. The system reflects a coordinated network primarily focused on maintaining cellular homeostasis by processing potentially harmful substances and facilitating their excretion. The presence of PRKCE suggests a possible regulatory role in these metabolic processes, although its specific interactions with the metabolic enzymes are not well-defined in this context."	0.92	High Confidence
+GO:1902267	AZIN1 OAZ2 OAZ1 AZIN2 OAZ3	5	regulation of polyamine transmembrane transport	Polyamine Metabolism Regulation	"1. AZIN1 (Antizyme Inhibitor 1) and AZIN2 (Antizyme Inhibitor 2) are proteins that regulate polyamine levels by inhibiting OAZ (Ornithine Decarboxylase Antizyme) proteins. They function by binding to OAZs, preventing them from targeting ornithine decarboxylase (ODC) for degradation. ODC is a key enzyme in polyamine synthesis, catalyzing the conversion of ornithine to putrescine, the first step in polyamine biosynthesis.
+
+2. OAZ1 (Ornithine Decarboxylase Antizyme 1), OAZ2 (Ornithine Decarboxylase Antizyme 2), and OAZ3 (Ornithine Decarboxylase Antizyme 3) are regulatory proteins that respond to intracellular polyamine levels. When polyamine levels are high, OAZ proteins bind to ODC, leading to its degradation and thus downregulating polyamine synthesis. They also inhibit polyamine uptake by cells, providing a double regulatory mechanism to control intracellular polyamine concentrations.
+
+3. The interaction between AZIN proteins and OAZ proteins represents a feedback loop essential for maintaining polyamine homeostasis. AZIN proteins, by inhibiting OAZ function, ensure that ODC activity is not excessively downregulated, which would lead to a depletion of polyamines necessary for cell growth and differentiation.
+
+4. The balance between AZIN and OAZ proteins is crucial for cell proliferation, differentiation, and apoptosis, as polyamines are involved in a wide range of cellular processes including DNA stabilization, transcription, translation, and ion channel regulation.
+
+To summarize, the proteins in this set are intricately involved in the regulation of polyamine metabolism. They act in a coordinated manner to maintain polyamine homeostasis, which is vital for normal cellular function and growth. The system of interacting proteins ensures that polyamine synthesis is tightly regulated through a balance of synthesis, degradation, and transport, mediated by the antagonistic actions of AZIN and OAZ family members."	0.92	High Confidence
+GO:0019748	BDH2 CYP2A7 AKR1C1 ACMSD ATP7A ASIP DDT CYP3A4 CYP1B1 CYP1A1 APPL1 AKR1B1 MC1R AKR1C3 CYP1A2 UGT1A7 OCA2 CYP2W1 CDH3 WNT5A SULT1C4 CTNS CITED1 AKR1C4 TYRP1 DCT FMO2 AKR7A2 ARL1 TRPC1 SLC7A11 CYP2A13 TH AKR1B10 AS3MT CYP2A6 RAPGEF2 ZEB2 CBR4 N6AMT1 OPN3 AKR1C2 SLC24A5 RAB38 GIPC1 BCL2 MFSD12 NFE2L2 AKR1A1 TYR UGT1A8 SLC45A2 CYP2D6 PMEL CYP3A5 FMO1	56	secondary metabolic process	Xenobiotic Metabolism and Pigmentation Modulation	"1. The cytochrome P450 (CYP) family members, including CYP2A7, CYP3A4, CYP1B1, CYP1A1, CYP2W1, CYP2A13, CYP2A6, and CYP3A5, are central to the metabolism of xenobiotics. They oxidize a variety of structurally diverse compounds, including drugs and carcinogens, facilitating their excretion from the body.
+
+2. The aldo-keto reductase (AKR) family, with members such as AKR1C1, AKR1B1, AKR1C3, AKR1C4, AKR7A2, AKR1B10, AKR1C2, and AKR1A1, is involved in the reduction of aldehydes and ketones to their corresponding alcohols. This activity is crucial in the detoxification of endogenous and exogenous aldehydes and ketones.
+
+3. The UDP-glucuronosyltransferases (UGT) enzymes, including UGT1A7 and UGT1A8, are involved in phase II metabolism, where they conjugate glucuronic acid to a variety of endogenous and xenobiotic substances, increasing their solubility and facilitating their excretion.
+
+4. Proteins involved in pigmentation, such as TYR (tyrosinase), OCA2, TYRP1, DCT, SLC24A5, SLC45A2, and PMEL, are critical in the synthesis and distribution of melanin within melanocytes. These proteins interact to regulate skin, hair, and eye color.
+
+5. Several proteins, including NFE2L2, are involved in the cellular response to oxidative stress. NFE2L2 regulates the expression of detoxifying enzymes and antioxidant proteins, providing protection against oxidative damage.
+
+6. Transporters such as ATP7A, SLC7A11, and CTNS are involved in the transport of metal ions and cystine, respectively, which are essential for various cellular processes, including metal homeostasis and amino acid metabolism.
+
+7. Proteins like BCL2 are central to the regulation of apoptosis, contributing to cell survival and homeostasis.
+
+8. The presence of signaling molecules such as WNT5A and RAPGEF2 indicates a role in cellular signaling pathways that govern processes like cell migration and differentiation.
+
+To summarize, the majority of the proteins in this system are involved in the metabolism of xenobiotics, which includes the transformation and clearance of harmful substances. Additionally, a significant subset is associated with pigmentation, indicating a secondary role in the modulation of melanin synthesis and distribution. The system reflects a complex interplay between detoxification processes and pigmentation, with additional involvement in cellular stress responses and signaling pathways."	0.85	Medium Confidence

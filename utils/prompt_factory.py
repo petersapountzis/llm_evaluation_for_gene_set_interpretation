@@ -1,3 +1,4 @@
+from typing import List
 
 def add_gene_feature_summary(prompt_text, feature_dataframe, n_genes=2):
     for index, row in feature_dataframe.iterrows():
@@ -71,7 +72,7 @@ Be factual, do not editorialize.
 Be specific, avoid overly general statements such as 'the proteins are involved in various cellular processes'.
 Avoid listing facts about individual proteins. Instead, try to group proteins with similar functions and discuss their interplay, synergistyc or antagonistic effects and functional integration within the system.
 Also avoid choosing generic process names such as 'Cellular Signaling and Regulation'.
-If you cannot identify a prominent biological process for the proteins in the system, I want you to communicate this in you analysis and name the process: “System of unrelated proteins”. Provide a score of 0.00 for a "System of unrelated proteins".
+If you cannot identify a prominent biological process for the proteins in the system, I want you to communicate this in you analysis and name the process: "System of unrelated proteins". Provide a score of 0.00 for a "System of unrelated proteins".
     """
     
     task_instructions = """
@@ -93,8 +94,18 @@ contribute to this process, the score should be lower compared to a scenario whe
 Propose a name and provide analysis for the following gene set.
     """
     
+    format_instructions = """
+Format your response exactly as follows:
+
+Process: [process name] | Score: [confidence score between 0.00 and 1.00]
+
+[Detailed explanation of why these genes are involved in this process]
+
+The score must be placed after the process name, separated by "| Score:". The score should be a number between 0.00 and 1.00.
+    """
+    
     format_placeholder = """ 
-Put your chosen name at the top of the analysis as 'Process: <name>’.
+Put your chosen name at the top of the analysis as 'Process: <name>'.
     """
 
     example_analysis = """
@@ -105,7 +116,7 @@ PDX1, SLC2A2, NKX6-1, GLP1, GCG.
 
 The example analysis output is:
 
-Process: Pancreatic development and glucose homeostasis (0.96)
+Process: Pancreatic development and glucose homeostasis | Score: 0.96
 
 1. PDX1 is a homeodomain transcription factor involved in the specification of the early pancreatic epithelium and its subsequent differentiation. 
 It activates the transcription of several genes including insulin, somatostatin, glucokinase and glucose transporter type 2. 
@@ -132,13 +143,16 @@ and homeostasis via a number of different hormones and receptors that can elicit
     
     if direct == True:
         prompt_text = direct_instructions
+        prompt_text += format_instructions
         prompt_text += format_placeholder
     elif customized_prompt:
         prompt_text = customized_prompt
+        prompt_text += format_instructions
         prompt_text += format_placeholder
     else:
         prompt_text = task_instructions
         prompt_text += score_instructions
+        prompt_text += format_instructions
         prompt_text += format_placeholder
         prompt_text += general_analysis_instructions
         prompt_text += example_analysis

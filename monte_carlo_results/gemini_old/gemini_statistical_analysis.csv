@@ -1,0 +1,4 @@
+,mean_traditional,mean_rag,mean_difference,std_traditional,std_rag,std_difference,mean_processing_time,std_processing_time
+5,0.0,0.0,0.0,0.0,0.0,0.0,0.34546241760253904,0.3199079470032634
+10,0.0,0.0,0.0,0.0,0.0,0.0,0.5373601937294006,0.4968655425906614
+20,0.0,0.0,0.0,0.0,0.0,0.0,0.522469835281372,0.4613071760169084

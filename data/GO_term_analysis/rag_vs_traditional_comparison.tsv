@@ -1,0 +1,171 @@
+	GO	Genes	Traditional_Response	Traditional_Score	RAG_Response	RAG_Score	Score_Difference
+0	GO:0048627	MEGF10 SDC1 WNT10B SOX15	"Process: Regulation of Cell Adhesion and Migration | Score: 0.85
+
+1. MEGF10, SDC1, and SOX15 are involved in regulating cell adhesion and migration processes. MEGF10, a cell surface receptor, plays a role in phagocytosis and cell adhesion. SDC1, a cell surface proteoglycan, participates in cell-cell adhesion and cell-matrix interactions. SOX15, a transcription factor, regulates genes involved in cell adhesion and migration.
+
+2. WNT10B is a signaling protein that can influence cell adhesion and migration through the Wnt signaling pathway. It can modulate the expression of genes involved in cytoskeletal dynamics and cell motility.
+
+3. The interplay between these proteins suggests a coordinated effort in regulating the adhesion and movement of cells. MEGF10 and SDC1 may facilitate cell-cell interactions, while WNT10B and SOX15 could modulate signaling pathways that impact cell migration.
+
+In summary, the proteins in this system appear to be primarily involved in the regulation of cell adhesion and migration processes, indicating a collective role in controlling cellular interactions and movements within tissues."	0.85	"Process: Myoblast development | Score: 0.95
+
+1. MEGF10, SDC1, WNT10B, and SOX15 are all involved in myoblast development, a crucial process in muscle formation. 
+2. MEGF10 plays a role in myoblast fusion and muscle development.
+3. SDC1 is involved in myoblast differentiation and adhesion processes.
+4. WNT10B is known to regulate myoblast proliferation and differentiation.
+5. SOX15 is a transcription factor that contributes to muscle development and regeneration.
+
+These genes collectively participate in the intricate process of myoblast development, encompassing various stages from differentiation to fusion, ultimately leading to the formation of functional muscle fibers. The interactions between these proteins orchestrate the precise regulation of gene expression and signaling pathways essential for proper muscle development."	0.95	0.09999999999999998
+1	GO:1904888	CPLANE2 NEUROG1 GRHL2 TGFB3 EXT1 TGFBR2 TWIST1 EDNRA WDR19 MED12 TGFB2 PAX5 NDST1 FOXE1 EIF4A3 RAB23 DCANP1 TP63 WNT9B TFAP2A IFT140 GLI3 PDGFRA ZIC3 INSIG1 MMP16 CHST11 CTNNB1 NIPBL INSIG2 IRX5 NOG SIX2 TBX1 TGFBR1 RIC1 COLEC10 TIFAB FOXN3 FGFR2 RDH10 CRKL TMEM107 FOXC2 SLC39A1 SMAD2 SIX1 FREM1 RUNX2 SIX4 MTHFD1 GNA11 IRF6 MTHFD1L LHX1 NODAL PRRX1 BMP4 MSX2 TULP3 MEGF8 FGF8 CEP55 SMAD3 MMP14 SETD2 TBX15 DLX2 HOXA2 FGF4 SLC39A3 HOXA1	"Process: Embryonic Development and Morphogenesis | Score: 0.85
+
+The proteins in this system play crucial roles in embryonic development and morphogenesis. They are involved in processes such as cell differentiation, tissue patterning, and organ formation. Proteins like NEUROG1, PAX5, and TFAP2A are key transcription factors that regulate the expression of genes essential for neural development and organogenesis. TGFB2, TGFB3, TGFBR1, and TGFBR2 are part of the TGF-beta signaling pathway, which is pivotal in controlling cell growth, differentiation, and development. Proteins like TWIST1, SIX1, and SIX2 are involved in mesoderm and neural crest development, contributing to the formation of various tissues and structures during embryogenesis. Additionally, factors like BMP4, WNT9B, and FGF8 are critical for signaling pathways that influence cell fate determination and tissue differentiation. The intricate interplay among these proteins orchestrates the complex processes of embryonic development and morphogenesis, ensuring the proper formation of tissues and organs.
+
+These proteins collectively contribute to the regulation of key developmental pathways, highlighting their significance in embryonic development and morphogenesis. The interactions and functions of these proteins underscore their essential roles in shaping the early stages of organismal development.
+
+"	0.85	"Process: Mesoderm Development | Score: 0.95
+
+The genes in this system are primarily involved in mesoderm development, a crucial biological process during embryogenesis. Mesoderm development encompasses the formation and differentiation of the mesodermal germ layer, giving rise to various tissues such as muscle, bone, and blood vessels. 
+
+These genes play essential roles in signaling pathways, transcriptional regulation, and morphogenetic processes that are fundamental for mesoderm specification and patterning. They are involved in key events like cell fate determination, tissue differentiation, and the establishment of the body plan during early development.
+
+The high proportion of genes associated with mesoderm development in this system indicates a strong connection to this process, highlighting the significance of their interactions in orchestrating the intricate cellular events required for mesoderm formation.
+
+"	0.95	0.09999999999999998
+2	GO:0019585	DCXR UGT1A9 UGT2B7 PRKCE UGT1A7 UGT2A3 SORD UGT1A10 UGT1A1 UGT1A3 UGT2A1 UGT1A5 XYLB CRYL1 UGT2B4 AKR1A1 UGT2B15 UGT2B17 UGT2A2 UGT2B28 UGT1A6 UGT2B10 UGT1A8 UGT1A4 UGT2B11 ABHD10	"Process: Xenobiotic metabolism and detoxification | Score: 0.95
+
+1. The proteins in this system, including UGTs (UDP-glucuronosyltransferases), AKR1A1, and ABHD10, are primarily involved in xenobiotic metabolism and detoxification processes. UGTs catalyze the conjugation of lipophilic compounds with glucuronic acid, facilitating their excretion from the body. AKR1A1 participates in the reduction of aldehydes and ketones, contributing to the detoxification of reactive intermediates. ABHD10 is involved in lipid metabolism and may play a role in the detoxification of lipid-derived toxic compounds.
+
+2. UGTs, such as UGT1A1, UGT1A3, UGT1A4, UGT1A6, UGT1A7, UGT1A8, UGT1A9, UGT1A10, UGT2A1, UGT2A2, UGT2A3, UGT2B4, UGT2B7, UGT2B10, UGT2B11, UGT2B15, UGT2B17, and UGT2B28, are key enzymes in the conjugation of a wide range of endogenous and exogenous compounds, including drugs, toxins, and environmental pollutants. These enzymes play a crucial role in the phase II metabolism of xenobiotics, enhancing their water solubility and facilitating their elimination from the body.
+
+3. Proteins like DCXR, SORD, and XYLB may also contribute to xenobiotic metabolism indirectly by participating in the metabolism of endogenous compounds that can influence the detoxification processes. DCXR and SORD are involved in the metabolism of sugar alcohols, while XYLB participates in the breakdown of xylose, potentially impacting the availability of substrates for detoxification reactions.
+
+In summary, the system of interacting proteins is predominantly associated with xenobiotic metabolism and detoxification processes, highlighting the crucial role of these proteins in the biotransformation and elimination of foreign compounds and endogenous metabolites that could be harmful to the organism. The high proportion of genes involved in these pathways supports the designation of this system as primarily dedicated to xenobiotic metabolism and detoxification.
+
+"	0.95	"Process: Xenobiotic Metabolism and Detoxification | Score: 0.95
+
+The proteins in this system are primarily involved in xenobiotic metabolism and detoxification processes. This includes the conjugation of xenobiotics with glucuronic acid, sulfate, or glutathione, rendering them more water-soluble and facilitating their excretion from the body. 
+
+UGT enzymes (UGT1A1, UGT1A3, UGT1A4, UGT1A5, UGT1A6, UGT1A7, UGT1A8, UGT1A9, UGT1A10, UGT2A1, UGT2A2, UGT2A3, UGT2B4, UGT2B7, UGT2B10, UGT2B11, UGT2B15, UGT2B17, UGT2B28) are responsible for glucuronidation, a major phase II metabolic pathway. This process involves the addition of glucuronic acid to xenobiotics, making them more hydrophilic and facilitating their elimination through bile or urine.
+
+AKR1A1 and SORD are involved in the reduction of aldehydes and ketones, contributing to the detoxification of reactive intermediates. PRKCE plays a role in the regulation of phase I and phase II detoxification enzymes.
+
+DCXR, XYLB, and CRYL1 are involved in various metabolic processes that support the overall detoxification mechanisms within the cell.
+
+Overall, the system of interacting proteins is primarily dedicated to xenobiotic metabolism and detoxification, ensuring the body's ability to process and eliminate potentially harmful substances efficiently. The high proportion of genes involved in these processes supports the confidence in naming this system as Xenobiotic Metabolism and Detoxification."	0.95	0.0
+3	GO:1902267	AZIN1 OAZ2 OAZ1 AZIN2 OAZ3	"Process: Polyamine metabolism and regulation | Score: 0.92
+
+1. AZIN1 and AZIN2 are antizyme inhibitors that regulate polyamine levels by inhibiting antizymes, which in turn regulate the degradation of ornithine decarboxylase (ODC), a key enzyme in polyamine biosynthesis. By inhibiting antizymes, AZIN1 and AZIN2 promote the stability and activity of ODC, leading to increased polyamine production.
+
+2. OAZ1, OAZ2, and OAZ3 are ornithine decarboxylase antizymes that negatively regulate ODC activity by targeting it for degradation. These proteins bind to ODC and promote its degradation, thereby controlling the levels of polyamines in the cell.
+
+3. The interplay between AZIN1, AZIN2, OAZ1, OAZ2, and OAZ3 forms a regulatory loop that finely tunes polyamine levels in the cell. This system of interacting proteins ensures proper polyamine metabolism, which is crucial for various cellular processes such as cell growth, proliferation, and differentiation.
+
+In summary, the proteins AZIN1, AZIN2, OAZ1, OAZ2, and OAZ3 are key players in the regulation of polyamine metabolism, maintaining the delicate balance of polyamine levels essential for cellular functions. Their interactions form a tightly regulated system that modulates polyamine biosynthesis and degradation, highlighting the significance of polyamine metabolism and regulation in cellular physiology.
+
+"	0.92	"Process: Regulation of polyamine metabolism | Score: 0.95
+
+1. AZIN1, AZIN2, OAZ1, OAZ2, and OAZ3 are key players in the regulation of polyamine metabolism. 
+2. AZIN1 and AZIN2 are antizymes that negatively regulate ornithine decarboxylase (ODC1), a critical enzyme in polyamine biosynthesis.
+3. OAZ1, OAZ2, and OAZ3 are ornithine decarboxylase antizyme inhibitors that counteract the inhibitory effects of AZIN1 and AZIN2 on ODC1, promoting polyamine biosynthesis.
+4. This interplay between antizymes and antizyme inhibitors finely tunes the levels of polyamines, essential molecules involved in cell growth, proliferation, and differentiation.
+5. The coordinated action of these proteins ensures the tight regulation of polyamine metabolism, which is crucial for various cellular processes.
+
+This system of interacting proteins is primarily involved in the regulation of polyamine metabolism, encompassing both the biosynthesis and transport of polyamines within cells. The balance between antizymes and antizyme inhibitors in this system plays a crucial role in maintaining cellular polyamine homeostasis, which is essential for normal cell function and growth."	0.95	0.029999999999999916
+4	GO:0019748	BDH2 CYP2A7 AKR1C1 ACMSD ATP7A ASIP DDT CYP3A4 CYP1B1 CYP1A1 APPL1 AKR1B1 MC1R AKR1C3 CYP1A2 UGT1A7 OCA2 CYP2W1 CDH3 WNT5A SULT1C4 CTNS CITED1 AKR1C4 TYRP1 DCT FMO2 AKR7A2 ARL1 TRPC1 SLC7A11 CYP2A13 TH AKR1B10 AS3MT CYP2A6 RAPGEF2 ZEB2 CBR4 N6AMT1 OPN3 AKR1C2 SLC24A5 RAB38 GIPC1 BCL2 MFSD12 NFE2L2 AKR1A1 TYR UGT1A8 SLC45A2 CYP2D6 PMEL CYP3A5 FMO1	"Process: Melanin biosynthesis and pigmentation | Score: 0.85
+
+The proteins in this system are primarily involved in the biosynthesis of melanin and pigmentation processes. Proteins such as TYRP1, DCT, and TYR play crucial roles in melanin synthesis, while MC1R and ASIP are involved in regulating melanin production and distribution. Additionally, proteins like OCA2 and PMEL are essential for melanosome biogenesis and maturation. The interplay between these proteins orchestrates the intricate process of melanin production and pigmentation, influencing skin, hair, and eye coloration in organisms. The system's focus on melanin biosynthesis and pigmentation is evident from the functional integration and synergistic effects observed among these proteins, highlighting their collective role in determining phenotypic traits related to pigmentation."	0.85	"Process: Melanin Biosynthesis | Score: 0.85
+
+The proteins in this system are primarily involved in melanin biosynthesis, a crucial process in melanocytes that leads to the production of melanin pigments responsible for skin, hair, and eye coloration. 
+
+1. Proteins like TYR, TYRP1, and DCT are key enzymes in the melanin synthesis pathway, catalyzing the conversion of tyrosine to melanin intermediates.
+   
+2. MC1R, ASIP, and OCA2 are involved in regulating melanin production and distribution. MC1R plays a role in signaling pathways that control melanin synthesis, while ASIP and OCA2 influence melanin distribution and transport within melanocytes.
+
+3. Proteins such as SLC45A2 and SLC24A5 are melanosome-associated transporters that regulate the pH and ion balance within melanocytes, essential for proper melanin synthesis and deposition.
+
+4. The presence of other proteins like CYP1A1, CYP1A2, and CYP3A4 suggests potential roles in metabolizing melanin precursors or modulating melanin synthesis through enzymatic activities.
+
+Overall, the interactions among these proteins indicate a coordinated effort in melanin biosynthesis, encompassing enzymatic reactions, regulatory mechanisms, and transport processes crucial for pigmentation. The prominence of genes related to melanin synthesis supports the designation of this system as primarily involved in melanin biosynthesis."	0.85	0.0
+5	GO:0006122	CYC1 UQCRB UQCRC1 UQCR10 CYCS UQCC3 UQCRQ UQCRHL UQCR11 CYTB UQCRH UQCRC2 UQCRFS1	"Process: Mitochondrial Electron Transport Chain | Score: 0.95
+
+The proteins CYC1, UQCRB, UQCRC1, UQCR10, CYCS, UQCC3, UQCRQ, UQCRHL, UQCR11, CYTB, UQCRH, UQCRC2, and UQCRFS1 are integral components of the mitochondrial electron transport chain (ETC). This system of interacting proteins is primarily responsible for generating ATP through oxidative phosphorylation. The ETC is a series of protein complexes located in the inner mitochondrial membrane that transfer electrons from electron donors to electron acceptors, ultimately leading to the production of ATP. 
+
+These proteins work in concert to facilitate the sequential transfer of electrons along the respiratory chain, leading to the generation of a proton gradient across the inner mitochondrial membrane. This proton gradient is then utilized by ATP synthase to drive the synthesis of ATP from ADP and inorganic phosphate. The ETC is a crucial process for cellular energy production, with each protein playing a specific role in electron transfer and proton pumping.
+
+The high proportion of genes in this system dedicated to the mitochondrial electron transport chain, along with their well-established roles in oxidative phosphorylation, supports the confident assignment of the name ""Mitochondrial Electron Transport Chain"" to the most prominent biological process performed by these interacting proteins."	0.95	"Process: Mitochondrial Electron Transport Chain | Score: 0.95
+
+The proteins CYC1, UQCRB, UQCRC1, UQCR10, CYCS, UQCC3, UQCRQ, UQCRHL, UQCR11, CYTB, UQCRH, UQCRC2, and UQCRFS1 are integral components of the mitochondrial electron transport chain. This system is responsible for transferring electrons through a series of protein complexes embedded in the inner mitochondrial membrane, ultimately leading to the generation of ATP through oxidative phosphorylation. The electron transport chain consists of multiple complexes (Complexes I to IV) and cytochrome c, which shuttle electrons between these complexes. The coordinated action of these proteins facilitates the flow of electrons, driving the proton gradient necessary for ATP synthesis. Dysfunction in any of these components can lead to impaired energy production and various mitochondrial disorders. The interplay between these proteins ensures efficient electron transfer and ATP production within the mitochondria."	0.95	0.0
+6	GO:0030071	SPC24 TTK CDC6 PBRM1 MAD2L1BP SMARCB1 ANAPC5 FBXO5 HECW2 IK RIOK2 TPR ARID1A PCID2 TEX14 RAD21 ACTB KNL1 PLK1 SMARCD1 BUB1B GEN1 NSMCE2 SMARCD2 ARID1B CUL3 USP44 BCL7A SMARCC1 XRCC3 MAD1L1 HASPIN NEK6 MAP3K20 PSMG2 BCL7C SMARCC2 ACTL6A KNTC1 SPC25 SMARCD3 SMARCE1 ZWINT CCNB1 BUB3 SMARCA2 ESPL1 ARID2 ZNF207 ACTL6B ANAPC4 SPDL1 ATM BCL7B ANAPC11 CDC16 BRD7 PRAP1 ANAPC15 BIRC5 DUSP1 MAD2L2 DPF3 NDC80 MAD2L1 BUB1 CDC23 DPF1 PHF10 KLHL22 APC CDK5RAP2 RB1 DPF2 CDCA8 UBE2C INCENP SMARCA4 ZWILCH CENPE DLGAP5 CDC20 NUF2 LCMT1 TRIP13 AURKB CENPF DYNC1LI1 ZW10	"Process: Mitotic spindle assembly and chromosome segregation | Score: 0.95
+
+The proteins in this system play crucial roles in mitotic spindle assembly and chromosome segregation during cell division. Proteins like SPC24, TTK, and CDC6 are involved in regulating the formation and function of the mitotic spindle, ensuring proper chromosome alignment and segregation. PBRM1, MAD2L1BP, and SMARCB1 contribute to the maintenance of chromatin structure and organization, essential for accurate chromosome segregation. ANAPC5, FBXO5, and HECW2 are involved in the regulation of cell cycle progression and mitotic checkpoint control. 
+
+The interplay of these proteins orchestrates the dynamic processes of spindle assembly, chromosome attachment, and segregation, ensuring the faithful distribution of genetic material to daughter cells during cell division. The coordinated actions of these proteins highlight their essential roles in maintaining genomic stability and proper cell proliferation.
+
+"	0.95	"Process: Mitotic spindle assembly checkpoint | Score: 0.95
+
+The proteins in this system are primarily involved in the regulation and function of the mitotic spindle assembly checkpoint. This checkpoint ensures accurate chromosome segregation during cell division by monitoring the attachment of spindle microtubules to kinetochores and delaying anaphase until all chromosomes are properly aligned.
+
+Key proteins such as BUB1, BUB3, MAD1L1, MAD2L1, and MAD2L1BP are crucial components of the spindle assembly checkpoint machinery, detecting errors in chromosome attachment and signaling to halt cell cycle progression. Other proteins like CDC20, CDC6, and CDC23 play roles in coordinating the checkpoint response and regulating the activity of the anaphase-promoting complex (APC/C).
+
+The interactions and functions of these proteins collectively contribute to the fidelity of chromosome segregation and the prevention of aneuploidy, highlighting their significance in ensuring genomic stability during cell division."	0.95	0.0
+7	GO:0090660	DNAH9 AQP4 CFAP221 DAW1 ODAD3 CFAP45 CFAP54 KATNIP JHY CCDC39 DNAAF11 CFAP43 SPAG16 ODAD4 NHERF1	"Process: Ciliary structure and function maintenance | Score: 0.92
+
+1. Proteins in this system, such as DNAH9, CFAP221, CFAP45, CFAP54, CFAP43, and SPAG16, are involved in the assembly and maintenance of ciliary structures. These proteins play crucial roles in the formation of the axoneme, the central structural component of cilia, and in regulating ciliary motility.
+
+2. AQP4, ODAD3, ODAD4, and NHERF1 are associated with the regulation of ciliary membrane composition and function. AQP4, for instance, is involved in water transport across the ciliary membrane, contributing to ciliary hydration and function.
+
+3. CFAP221, CFAP45, CFAP54, and CFAP43 are part of the ciliary central pair complex, essential for proper ciliary motility and coordination. These proteins interact with dynein arms and radial spokes to ensure effective ciliary movement.
+
+4. Proteins like KATNIP, JHY, CCDC39, and DNAAF11 are implicated in ciliogenesis and intraflagellar transport, facilitating the trafficking of proteins and complexes along the ciliary axoneme.
+
+In summary, the proteins in this system collectively participate in the maintenance of ciliary structure and function, encompassing processes such as ciliogenesis, axonemal assembly, membrane composition regulation, and ciliary motility coordination. The intricate interplay among these proteins ensures the proper functioning of cilia, critical for various cellular processes and signaling pathways."	0.92	"Process: Ciliary Structure and Function | Score: 0.95
+
+1. DNAH9, CFAP221, CFAP45, CFAP54, CFAP43 are all involved in axoneme assembly, which is crucial for the formation of cilia and flagella. These proteins contribute to the structural integrity and motility of cilia.
+
+2. AQP4 plays a role in extracellular transport, which is essential for maintaining the proper environment around cilia and facilitating the movement of molecules necessary for ciliary function.
+
+3. DAW1, ODAD3, ODAD4 are associated with axonemal dynein complex assembly, which is crucial for the proper functioning of cilia by facilitating the movement of ciliary components.
+
+4. SPAG16, NHERF1, CCDC39, DNAAF11, KATNIP, JHY are involved in various aspects of ciliary structure and function, such as axoneme assembly and extracellular transport, contributing to the overall integrity and functionality of cilia.
+
+In summary, the proteins in this system play essential roles in the assembly, maintenance, and function of ciliary structures, which are critical for cellular motility, signaling, and extracellular transport processes. The interplay of these proteins ensures the proper formation and operation of cilia, highlighting their significance in cellular physiology.
+
+"	0.95	0.029999999999999916
+8	GO:0006754	PRKAG2 TREM2 ATP5MG ATPSCKMT NDUFS8 ATP5MC2 ADCY10 NDUFS5 DMAC2L ATP5MF NDUFB8 ATP8 SDHA NDUFS1 ANTKMT ND3 SDHD TMSB4X NDUFB10 ATP5F1C NDUFB7 ALDOA ND2 NDUFB2 NDUFA1 ATP6V1A NDUFAB1 COX11 ND4L NDUFB1 NDUFV3 ATP5PD NDUFA2 NDUFA8 ND6 FLCN IL4 NDUFB6 ATP5F1A NDUFB5 ATP5PO NDUFA13 ATP6V0C ATP6 NDUFV1 DNAJC30 ATP5MC3 PINK1 NDUFA6 PPARGC1A ATP5F1B ND1 NDUFS2 TAFAZZIN NDUFA11 ND5 NDUFA7 NDUFS6 ND4 ENO1 SLC25A13 ATP5PB NDUFV2 LDHC SPHK2 PARP1 VPS9D1 UQCC3 NDUFA9 ATP5ME TGFB1 NDUFA12 NDUFB9 NDUFS7 NUDT2 ATP5MC1 ATP5PF NDUFB4 NDUFS4 PID1 ATP5MGL NDUFS3 SDHC ATP5F1E NDUFA3 VCP ATP5MJ ATP5MK NDUFA10 ATP5F1D SDHB NDUFC2 NDUFB3 PPARA NDUFB11 LIPA NDUFC1 STOML2 NDUFA5	"Process: Oxidative Phosphorylation | Score: 0.95
+
+The proteins in this system are primarily involved in the process of oxidative phosphorylation, which is the metabolic pathway that generates adenosine triphosphate (ATP) by utilizing enzymes in the electron transport chain. These proteins play crucial roles in electron transfer, proton pumping, and ATP synthesis within the mitochondria. 
+
+Key components such as NDUFS, NDUFV, NDUFA, and ATP synthase subunits are integral to electron transport and ATP production. Proteins like SDH, COX, and ATP synthase subunits contribute to the proton gradient across the inner mitochondrial membrane. Additionally, factors like PINK1 are involved in mitochondrial quality control and maintenance.
+
+The high representation of genes related to oxidative phosphorylation in this protein system suggests a strong association with this essential cellular process, indicating a significant role in energy production and cellular respiration.
+
+"	0.95	"Process: Mitochondrial ATP Production | Score: 0.95
+
+The system of interacting proteins is primarily involved in the process of mitochondrial ATP production. These proteins play crucial roles in the electron transport chain, oxidative phosphorylation, and ATP synthesis within the mitochondria. Proteins such as ATP synthase subunits (e.g., ATP5F1A, ATP5F1B, ATP5F1C, ATP5F1D, ATP5F1E) and components of the respiratory chain complexes (e.g., NDUFA subunits, SDH subunits, COX subunits) are integral for generating ATP through the proton gradient established during electron transport. Additionally, proteins like PRKAG2 and PINK1 are involved in regulating mitochondrial function and energy production. The coordinated action of these proteins ensures efficient ATP generation to meet cellular energy demands.
+
+This process name is highly confident as the majority of the genes in the system are directly related to mitochondrial ATP production, reflecting a cohesive functional unit within the mitochondria."	0.95	0.0
+9	GO:0043615	NR2E1 HEXB GPR183 CCL3 SCRIB CCL2 MMP14 APCDD1 CCR2	"Process: Chemotaxis and Inflammatory Response | Score: 0.92
+
+1. CCL2, CCL3, and CCR2 are involved in chemotaxis, attracting immune cells to sites of inflammation. CCL2 acts as a chemoattractant for monocytes, memory T cells, and dendritic cells. CCL3, also known as macrophage inflammatory protein-1 alpha (MIP-1α), recruits monocytes, memory T cells, and neutrophils. CCR2 is a receptor for CCL2 and plays a crucial role in monocyte recruitment.
+
+2. GPR183, also known as EBI2, is involved in immune cell trafficking and positioning. It regulates B cell migration and positioning within lymphoid tissues in response to chemokine gradients.
+
+3. MMP14, a matrix metalloproteinase, is involved in tissue remodeling and inflammation. It can cleave extracellular matrix proteins and modulate the inflammatory response by processing cytokines and chemokines.
+
+4. SCRIB and APCDD1 are involved in cell polarity and migration, which are essential processes for immune cell movement and function. SCRIB plays a role in establishing cell polarity and regulating cell migration, while APCDD1 is implicated in Wnt signaling and cell migration.
+
+5. NR2E1, a nuclear receptor, may modulate inflammatory responses by regulating gene expression in immune cells.
+
+Overall, the proteins in this system play crucial roles in chemotaxis, immune cell recruitment, inflammatory responses, and cell migration, collectively contributing to the orchestration of the body's defense mechanisms against pathogens and tissue damage. The interactions among these proteins highlight their coordinated efforts in regulating immune responses and maintaining tissue homeostasis."	0.92	"Process: Astrocyte cell migration | Score: 0.90
+
+1. NR2E1, GPR183, and SCRIB are involved in regulating astrocyte migration and function. NR2E1 plays a role in neural development and has been implicated in glial cell migration. GPR183 is known to modulate immune responses and has been linked to astrocyte activation. SCRIB is a polarity protein that can influence cell migration processes.
+
+2. CCL3, CCL2, and MMP14 are associated with inflammation and immune responses, which are crucial in the context of astrocyte migration. CCL3 and CCL2 are chemokines that can attract immune cells and modulate the microenvironment. MMP14 is involved in extracellular matrix remodeling, which is essential for cell migration.
+
+3. APCDD1 and CCR2 have roles in cell signaling and migration processes. APCDD1 is implicated in Wnt signaling, which can affect cell motility. CCR2 is a chemokine receptor that can influence cell migration in response to specific signals.
+
+4. HEXB is involved in lysosomal functions and may play a role in regulating cellular processes related to migration, potentially through interactions with other proteins in the system.
+
+Overall, the proteins in this system are involved in regulating astrocyte migration, which is crucial for various physiological and pathological processes in the central nervous system. The interplay between these proteins likely coordinates the complex mechanisms underlying astrocyte movement and positioning in the brain.
+
+"	0.9	-0.020000000000000018

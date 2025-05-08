@@ -24,7 +24,7 @@ def openai_chat(context, prompt, model,temperature, max_tokens, rate_per_token, 
     backoff_time = 10  # Start backoff time at 10 second
     retries = 0
 
-    
+
     log_data = load_log(LOG_FILE)
     tokens_estimate = len(prompt) + max_tokens
 
@@ -44,7 +44,7 @@ def openai_chat(context, prompt, model,temperature, max_tokens, rate_per_token, 
                 temperature=temperature,
             )
             end_time = time.time() 
-            
+
             # print(response)
             # tokens_used = response["usage"]["total_tokens"]
             tokens_used = response.usage.total_tokens
@@ -61,11 +61,11 @@ def openai_chat(context, prompt, model,temperature, max_tokens, rate_per_token, 
             save_log(LOG_FILE,log_data)
 
             return response_content, system_fingerprint
-        
-        except openai.error.RateLimitError as e:
+
+        except openai.RateLimitError as e:
             print("Rate limit exceeded. Please increate the limit before re-run.")
             return None, None
-        except (openai.error.APIConnectionError, openai.error.APIError) as e:
+        except (openai.APIConnectionError, openai.APIError) as e:
             print(f"Server issue detected, retrying in {backoff_time} seconds...")
             time.sleep(backoff_time)
             retries += 1
@@ -79,7 +79,7 @@ def openai_chat(context, prompt, model,temperature, max_tokens, rate_per_token, 
             print("Max retries exceeded. Please try again later.")
             return None, None
 
-    
+
 
 # excute the script
 if __name__ == "__main__":
@@ -94,10 +94,9 @@ if __name__ == "__main__":
     argparser.add_argument("--log_file", type=str, default="./log.json", help="PATH to the log file to save tokens used and dollars spent")
     argparser.add_argument("--dollor_limit", type=float, default=5.0, help="dollor limit to abort the chatgpt query")
     argparser.add_argument("--file_path", type=str, default="./response.txt", help="PATH to the file to save the response")
-    
+
     args = argparser.parse_args()
 
-    openai.api_key = args.openai_api_key
 
     context = args.context
     prompt = args.prompt

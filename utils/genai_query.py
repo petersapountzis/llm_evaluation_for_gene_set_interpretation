@@ -4,6 +4,9 @@ import time
 import json
 import re
 
+from dotenv import load_dotenv
+load_dotenv()
+
 def load_log(LOG_FILE):
     if os.path.exists(LOG_FILE):
         with open(LOG_FILE, "r") as f:
@@ -12,28 +15,28 @@ def load_log(LOG_FILE):
         return {"tokens_used": 0 ,"time_taken_last_run": 0.0, "time_taken_total": 0.0, "runs": 0}
 
 def save_log(LOG_FILE,log_data):
+    # Create logs directory if it doesn't exist
+    os.makedirs(os.path.dirname(LOG_FILE), exist_ok=True)
     with open(LOG_FILE, "w") as f:
         json.dump(log_data, f, indent=4)
 
 def query_genai_model(prompt, model, temperature, max_tokens,LOG_FILE):
     '''
     prompt = context + prompt
-    model = 'gemini-pro' for now 20231226
+    model = 'gemini-2.0-flash-lite' for faster and more cost-effective results
     temperature: set the temperature for the model for determining the randomness of the output.
     max_tokens: set the maximum number of tokens to generate for the output.
     LOG_FILE: the log file to save the log data
     '''
-    # configuration load key  
+    # configuration load key
     genai.configure(api_key=os.getenv('GOOGLEAI_KEY'))
 
     #set up model 
-    model = genai.GenerativeModel('gemini-pro')
+    model = genai.GenerativeModel('gemini-2.0-flash-lite')
     #define message 
     messages = [
-        # {'role':'system',
-        #  'parts': "You are an efficient and insightful assistant to a molecular biologist"},
         {'role':'user',
-        'parts': prompt}
+        'parts': [prompt]}  # Note: parts should be a list
         ]
 
     start_time = time.time()

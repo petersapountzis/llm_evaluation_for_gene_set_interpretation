@@ -1,5 +1,11 @@
 import json
-import openai
+from openai import OpenAI
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
+client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+# print(f'openai QUERY being run', os.getenv('OPENAI_API_KEY'))
 import os
 import time 
 import argparse
@@ -21,11 +27,11 @@ def estimate_cost(tokens, rate_per_token):
     return tokens * rate_per_token
 
 def openai_chat(context, prompt, model,temperature, max_tokens, rate_per_token, LOG_FILE, DOLLAR_LIMIT, seed: int = None):
-    openai.api_key = os.environ['OPENAI_API_KEY']
+    import openai
     backoff_time = 10  # Start backoff time at 10 second
     retries = 0
 
-    
+
     log_data = load_log(LOG_FILE)
     tokens_estimate = len(prompt) + max_tokens
 
@@ -35,17 +41,15 @@ def openai_chat(context, prompt, model,temperature, max_tokens, rate_per_token, 
     while retries <= 5: ## allow a max of 5 retries if the server is busy or overloaded
         try:
             start_time = time.time()
-            response = openai.chat.completions.create(
-                model=model,
-                messages=[{"role": "system", "content": context},{"role": "user", "content": prompt}],
-                max_tokens=max_tokens,
-                n=1,
-                stop=None,
-                seed=seed,
-                temperature=temperature,
-            )
+            response = client.chat.completions.create(model=model,
+            messages=[{"role": "system", "content": context},{"role": "user", "content": prompt}],
+            max_tokens=max_tokens,
+            n=1,
+            stop=None,
+            seed=seed,
+            temperature=temperature)
             end_time = time.time() 
-            
+
             # print(response)
             # tokens_used = response["usage"]["total_tokens"]
             tokens_used = response.usage.total_tokens
@@ -62,10 +66,14 @@ def openai_chat(context, prompt, model,temperature, max_tokens, rate_per_token, 
             save_log(LOG_FILE,log_data)
 
             return response_content, system_fingerprint
-        
+
         except openai.RateLimitError as e:
-            print("Rate limit exceeded. Please increate the limit before re-run.")
-            return None, None
+            print("Rate limit exceeded. Please increase the limit before re-run.")
+            time.sleep(backoff_time)
+            retries += 1
+            backoff_time *= 2 # Double the backoff time for the next retry
+            continue
+            # return None, None
         except openai.APIConnectionError as e:
             print(f"AIP connection error, retrying in {backoff_time} seconds...")
             time.sleep(backoff_time)
@@ -88,9 +96,9 @@ def openai_chat(context, prompt, model,temperature, max_tokens, rate_per_token, 
             print("Max retries exceeded. Please try again later.")
             return None, None
 
-    
 
-# excute the script
+
+# execute the script
 if __name__ == "__main__":
     argparser = argparse.ArgumentParser()
     argparser.add_argument("--openai_api_key", type=str, required=True)
@@ -101,12 +109,11 @@ if __name__ == "__main__":
     argparser.add_argument("--max_tokens", type=int, default=500, help="max tokens for chatgpt response")
     argparser.add_argument("--rate_per_token", type=float, default=0.0005, help="rate per token to estimate cost")
     argparser.add_argument("--log_file", type=str, default="./log.json", help="PATH to the log file to save tokens used and dollars spent")
-    argparser.add_argument("--dollor_limit", type=float, default=5.0, help="dollor limit to abort the chatgpt query")
+    argparser.add_argument("--dollor_limit", type=float, default=5.0, help="dollar limit to abort the chatgpt query")
     argparser.add_argument("--file_path", type=str, default="./response.txt", help="PATH to the file to save the response")
-    
+
     args = argparser.parse_args()
 
-    openai.api_key = args.openai_api_key
 
     context = args.context
     prompt = args.prompt

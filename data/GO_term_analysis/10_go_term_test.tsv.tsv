@@ -1,0 +1,167 @@
+GO	Genes	Gene_Count	Term_Description	gpt_4_default Name	gpt_4_default Analysis	gpt_4_default Score	gpt_4_default Score bins
+GO:0048627	MEGF10 SDC1 WNT10B SOX15	4	myoblast development	Skeletal Muscle Regeneration and Differentiation	"1. MEGF10 (Multiple EGF-like-domains 10) is a transmembrane protein that plays a crucial role in myoblast fusion during skeletal muscle regeneration. It is known to be involved in the recognition and adhesion of myoblasts, which is essential for the formation of multinucleated muscle fibers. MEGF10's function is critical in the repair and maintenance of muscle tissue following injury.
+
+2. SDC1 (Syndecan-1) is a cell surface heparan sulfate proteoglycan that participates in cell proliferation, cell migration, and cell-matrix interactions. In the context of muscle, SDC1 can influence myogenic cells and has been implicated in the regulation of muscle cell differentiation. It can modulate the activity of growth factors that are important for muscle repair and regeneration.
+
+3. WNT10B is a member of the WNT protein family that is involved in a variety of developmental processes, including regulation of cell fate and patterning during embryogenesis. In skeletal muscle, WNT10B signaling is associated with the regulation of myogenesis and adipogenesis. It can promote the differentiation of precursor cells into myoblasts and inhibit their differentiation into adipocytes, thus playing a role in muscle composition and regeneration.
+
+4. SOX15 is a member of the SOX (SRY-related HMG-box) family of transcription factors. It is expressed in skeletal muscle and has been shown to play a role in the regulation of muscle differentiation. SOX15 can influence the expression of genes that are critical for the maturation of muscle cells and the formation of functional muscle tissue.
+
+In summary, the proteins in this system interact to regulate the processes of skeletal muscle regeneration and differentiation. MEGF10 and SDC1 are involved in the cellular interactions and signaling required for muscle repair, while WNT10B and SOX15 contribute to the differentiation and maturation of muscle cells. The interplay between these proteins ensures the proper development and maintenance of skeletal muscle tissue, particularly following injury or stress."	0.85	Medium Confidence
+GO:1904888	CPLANE2 NEUROG1 GRHL2 TGFB3 EXT1 TGFBR2 TWIST1 EDNRA WDR19 MED12 TGFB2 PAX5 NDST1 FOXE1 EIF4A3 RAB23 DCANP1 TP63 WNT9B TFAP2A IFT140 GLI3 PDGFRA ZIC3 INSIG1 MMP16 CHST11 CTNNB1 NIPBL INSIG2 IRX5 NOG SIX2 TBX1 TGFBR1 RIC1 COLEC10 TIFAB FOXN3 FGFR2 RDH10 CRKL TMEM107 FOXC2 SLC39A1 SMAD2 SIX1 FREM1 RUNX2 SIX4 MTHFD1 GNA11 IRF6 MTHFD1L LHX1 NODAL PRRX1 BMP4 MSX2 TULP3 MEGF8 FGF8 CEP55 SMAD3 MMP14 SETD2 TBX15 DLX2 HOXA2 FGF4 SLC39A3 HOXA1	72	cranial skeletal system development	Craniofacial Development and Signaling Pathway Integration	"1. The proteins TWIST1, MSX2, RUNX2, and DLX2 are transcription factors with critical roles in craniofacial development. They regulate the expression of genes involved in the proliferation, differentiation, and migration of cranial neural crest cells, which contribute to the formation of the skull and face.
+
+2. The TGF-beta signaling pathway is represented by TGFB2, TGFB3, TGFBR1, TGFBR2, and SMAD2/3. These proteins are involved in cell growth, differentiation, and extracellular matrix production, which are essential for the morphogenesis of craniofacial structures.
+
+3. The WNT signaling pathway, with CTNNB1 (beta-catenin) and WNT9B, plays a pivotal role in craniofacial development by regulating cell fate determination, proliferation, and differentiation of cranial neural crest cells.
+
+4. The FGF signaling pathway, with FGF4, FGF8, and FGFR2, is crucial for the development of the face and palate, influencing cell migration, proliferation, and differentiation.
+
+5. The Hedgehog signaling pathway, represented by GLI3, is involved in the patterning of craniofacial structures and in the growth of facial prominences.
+
+6. The proteins BMP4 and NOG (Noggin) are involved in bone morphogenetic protein signaling, which is essential for the development of the craniofacial skeleton, including the formation of the jaw and teeth.
+
+7. The transcription factors PAX5, FOXE1, IRF6, and TFAP2A are involved in the development of specific craniofacial structures and in the etiology of syndromic craniofacial malformations.
+
+8. The extracellular matrix and glycosaminoglycan biosynthesis are represented by EXT1, NDST1, and CHST11, which are involved in the synthesis of heparan sulfate proteoglycans, important for the modulation of growth factor signaling during craniofacial development.
+
+9. The ciliogenesis-related proteins CPLANE2, WDR19, IFT140, and TMEM107 are involved in the formation and function of primary cilia, which are essential for the transduction of several signaling pathways, including Hedgehog, during craniofacial development.
+
+10. The proteins MED12, SMAD3, and SETD2 are involved in transcriptional regulation and chromatin remodeling, which are critical for the precise control of gene expression during craniofacial development.
+
+11. The proteins involved in cell cycle and proliferation, such as CEP55 and MEGF8, contribute to the regulation of cell division, which is fundamental for the growth and morphogenesis of craniofacial tissues.
+
+To summarize, the proteins in this system are highly interconnected and function in a coordinated manner to regulate the complex processes of craniofacial development. They are involved in multiple signaling pathways, transcriptional regulation, extracellular matrix production, and ciliogenesis, all of which are integrated to ensure proper formation and differentiation of craniofacial structures."	0.92	High Confidence
+GO:0019585	DCXR UGT1A9 UGT2B7 PRKCE UGT1A7 UGT2A3 SORD UGT1A10 UGT1A1 UGT1A3 UGT2A1 UGT1A5 XYLB CRYL1 UGT2B4 AKR1A1 UGT2B15 UGT2B17 UGT2A2 UGT2B28 UGT1A6 UGT2B10 UGT1A8 UGT1A4 UGT2B11 ABHD10	26	glucuronate metabolic process	Xenobiotic and Endobiotic Metabolism and Detoxification	"1. The UGT (UDP-glucuronosyltransferase) family proteins, including UGT1A1, UGT1A3, UGT1A4, UGT1A5, UGT1A6, UGT1A7, UGT1A8, UGT1A9, UGT1A10, UGT2A1, UGT2A2, UGT2A3, UGT2B4, UGT2B7, UGT2B10, UGT2B11, UGT2B15, UGT2B17, and UGT2B28, are involved in phase II metabolism. They catalyze the glucuronidation of a wide variety of endogenous and exogenous compounds, enhancing their solubility and facilitating their excretion from the body. This process is critical for the detoxification of lipophilic substances, including drugs, pollutants, and hormones.
+
+2. AKR1A1 (Aldo-keto reductase family 1 member A1) is part of the aldo-keto reductase superfamily and is involved in the reduction of aldehydes and ketones to their corresponding alcohols. This enzyme plays a role in the metabolism of glyceraldehyde and is also implicated in the detoxification of aldehydes derived from lipid peroxidation and steroid metabolism.
+
+3. DCXR (Dicarbonyl/L-xylulose reductase) is involved in the metabolism of xylulose, converting it to xylitol, which is a part of the pentose phosphate pathway. This enzyme also has a role in the detoxification of dicarbonyl compounds, which are reactive intermediates formed during sugar metabolism and can be damaging to cells.
+
+4. SORD (Sorbitol dehydrogenase) catalyzes the interconversion of sorbitol and fructose, which is an important step in the polyol pathway for glucose metabolism. This pathway is particularly relevant in tissues where insulin-independent glucose uptake occurs, such as in the lens of the eye, and can be implicated in diabetic complications when activated excessively.
+
+5. XYLB (Xylulose reductase) is involved in the metabolism of xylulose, converting it to xylitol, similar to DCXR. This enzyme is part of the pentose phosphate pathway, which is important for the generation of NADPH and ribose 5-phosphate.
+
+6. CRYL1 (Crystallin lambda 1) is a metabolic enzyme that is thought to be involved in the utilization of alternative carbon sources during the glucose deprivation response. It may also play a role in the metabolism of certain aldehydes.
+
+7. ABHD10 (Abhydrolase domain containing 10) and PRKCE (Protein kinase C epsilon) are somewhat outliers in this group. ABHD10 is a hydrolase that may be involved in the hydrolysis of acyl-protein thioester substrates, while PRKCE is a serine/threonine kinase involved in various signal transduction processes. Their direct roles in metabolism and detoxification are less clear compared to the other proteins listed.
+
+To summarize, the majority of the proteins in this system are involved in the metabolism and detoxification of a wide range of substances, with a strong emphasis on the conjugation and reduction reactions that modify xenobiotics and endobiotics to facilitate their excretion. The system reflects a coordinated network of enzymes that contribute to the body's defense against potentially harmful compounds."	0.92	High Confidence
+GO:1902267	AZIN1 OAZ2 OAZ1 AZIN2 OAZ3	5	regulation of polyamine transmembrane transport	Polyamine Regulation and Metabolism	"1. AZIN1 (antizyme inhibitor 1) and AZIN2 (antizyme inhibitor 2) are proteins that regulate the activity of ornithine decarboxylase (ODC), the rate-limiting enzyme in polyamine biosynthesis. They function by counteracting the effects of antizymes (OAZs), which are proteins that bind to ODC and target it for degradation, thereby controlling polyamine levels within the cell.
+
+2. OAZ1 (ornithine decarboxylase antizyme 1), OAZ2 (ornithine decarboxylase antizyme 2), and OAZ3 (ornithine decarboxylase antizyme 3) are members of the antizyme family that negatively regulate the activity of ODC by promoting its degradation. They respond to intracellular polyamine levels and are part of a feedback inhibition mechanism to maintain polyamine homeostasis.
+
+3. The interplay between AZINs and OAZs is crucial for the tight regulation of polyamine synthesis. Polyamines, such as putrescine, spermidine, and spermine, are essential for cell growth and differentiation. They are involved in a variety of cellular processes including DNA stabilization, transcription, translation, and ion channel regulation.
+
+4. The balance between AZINs and OAZs determines the cellular polyamine concentration, which is critical for normal cellular function and has implications in cell proliferation and potentially in cancer development. Overexpression of AZINs or downregulation of OAZs can lead to increased polyamine levels and has been associated with tumorigenesis.
+
+In summary, the proteins in this system are primarily involved in the regulation of polyamine biosynthesis and homeostasis. The antizyme inhibitors (AZIN1 and AZIN2) and the antizymes (OAZ1, OAZ2, and OAZ3) form a regulatory circuit that ensures the proper balance of polyamines, which are vital for cellular homeostasis and have significant roles in cell growth and differentiation. The system's components work in a coordinated manner to modulate the activity of the key enzyme ODC, highlighting the importance of this system in polyamine regulation and metabolism."	0.92	High Confidence
+GO:0019748	BDH2 CYP2A7 AKR1C1 ACMSD ATP7A ASIP DDT CYP3A4 CYP1B1 CYP1A1 APPL1 AKR1B1 MC1R AKR1C3 CYP1A2 UGT1A7 OCA2 CYP2W1 CDH3 WNT5A SULT1C4 CTNS CITED1 AKR1C4 TYRP1 DCT FMO2 AKR7A2 ARL1 TRPC1 SLC7A11 CYP2A13 TH AKR1B10 AS3MT CYP2A6 RAPGEF2 ZEB2 CBR4 N6AMT1 OPN3 AKR1C2 SLC24A5 RAB38 GIPC1 BCL2 MFSD12 NFE2L2 AKR1A1 TYR UGT1A8 SLC45A2 CYP2D6 PMEL CYP3A5 FMO1	56	secondary metabolic process	Xenobiotic Metabolism and Pigmentation Modulation	"1. The cytochrome P450 (CYP) family members, including CYP2A7, CYP3A4, CYP1B1, CYP1A1, CYP2W1, CYP2A13, CYP2A6, and CYP3A5, are key enzymes in the metabolism of xenobiotics. They oxidize a variety of structurally diverse compounds, including drugs and carcinogens, facilitating their excretion from the body.
+
+2. The aldo-keto reductase (AKR) family, with members such as AKR1C1, AKR1B1, AKR1C3, AKR1C4, AKR7A2, AKR1B10, and AKR1C2, is involved in the reduction of aldehydes and ketones to their corresponding alcohols. This activity is crucial in the detoxification of endogenous and exogenous aldehydes and ketones.
+
+3. UDP-glucuronosyltransferases (UGTs), including UGT1A7 and UGT1A8, are involved in phase II metabolism, where they conjugate glucuronic acid to a variety of endogenous and xenobiotic substances, increasing their solubility and facilitating their excretion.
+
+4. Proteins involved in pigmentation, such as TYR (tyrosinase), OCA2, TYRP1 (tyrosinase-related protein 1), DCT (dopachrome tautomerase), SLC24A5, SLC45A2, and MC1R (melanocortin 1 receptor), play roles in melanin synthesis and transport. Melanin is the pigment responsible for the color of skin, hair, and eyes.
+
+5. Several proteins, including PMEL and MFSD12, are associated with the formation and maturation of melanosomes, which are specialized organelles where melanin is synthesized and stored.
+
+6. Antioxidant defense is represented by NFE2L2 (NRF2), which regulates the expression of detoxifying enzymes and is a key player in the cellular response to oxidative stress.
+
+7. Transporters such as ATP7A (copper transporter) and SLC7A11 (cystine/glutamate transporter) are involved in the transport of essential metals and amino acids, respectively, which can indirectly influence detoxification processes and pigmentation.
+
+8. The presence of proteins like BCL2, which is involved in apoptosis regulation, suggests a link to cellular responses to stress or damage that may arise from xenobiotic exposure or UV radiation.
+
+To summarize, the majority of the proteins in this system are involved in the metabolism of xenobiotics, including phase I and phase II reactions, which are essential for the detoxification and excretion of harmful substances. Additionally, a significant subset of these proteins is involved in the modulation of pigmentation, a process that is tightly linked to the protection of the skin against UV radiation and oxidative stress. The interplay between these proteins supports the body's ability to respond to environmental challenges and maintain homeostasis."	0.85	Medium Confidence
+GO:0006122	CYC1 UQCRB UQCRC1 UQCR10 CYCS UQCC3 UQCRQ UQCRHL UQCR11 CYTB UQCRH UQCRC2 UQCRFS1	13	mitochondrial electron transport, ubiquinol to cytochrome c	Mitochondrial Electron Transport Chain Function	"1. The proteins CYC1, UQCRB, UQCRC1, UQCR10, CYCS, UQCC3, UQCRQ, UQCRHL, UQCR11, CYTB, UQCRH, UQCRC2, and UQCRFS1 are components of the mitochondrial electron transport chain (ETC), which is the final pathway for electron transfer in the process of oxidative phosphorylation.
+
+2. CYC1 (Cytochrome c1) and CYCS (Cytochrome c) are part of Complex III and IV, respectively. CYC1 is involved in the transfer of electrons from the Rieske iron-sulfur protein to cytochrome c, while CYCS is a mobile electron carrier that shuttles electrons between Complex III and IV.
+
+3. UQCRB (Ubiquinol-Cytochrome c Reductase Binding Protein), UQCRC1 (Ubiquinol-Cytochrome c Reductase Core Protein I), UQCRC2 (Ubiquinol-Cytochrome c Reductase Core Protein II), and UQCRFS1 (Ubiquinol-Cytochrome c Reductase, Rieske Iron-Sulfur Polypeptide 1) are all subunits of Complex III, which catalyzes the transfer of electrons from ubiquinol to cytochrome c.
+
+4. UQCR10 (Ubiquinol-Cytochrome c Reductase, Complex III Subunit X), UQCRQ (Ubiquinol-Cytochrome c Reductase, Complex III Subunit VII), UQCRHL (Ubiquinol-Cytochrome c Reductase Hinge Protein-Like), UQCRH (Ubiquinol-Cytochrome c Reductase Hinge Protein), and UQCR11 (Ubiquinol-Cytochrome c Reductase, Complex III Subunit XI) are additional subunits of Complex III, each contributing to the stability and function of the complex.
+
+5. CYTB (Cytochrome b) is a component of Complex III and is involved in the Q cycle, which is a series of biochemical reactions that contribute to the generation of a proton gradient across the mitochondrial membrane.
+
+6. UQCC3 (Ubiquinol-Cytochrome c Reductase Complex Assembly Factor 3) is likely involved in the assembly or stability of Complex III, ensuring proper formation and function of the complex.
+
+In summary, the proteins in this set are integral components of the mitochondrial ETC, specifically involved in Complex III, with connections to Complex IV. They work in concert to facilitate the transfer of electrons through the ETC, which is essential for the generation of ATP through oxidative phosphorylation. The high degree of involvement of these proteins in a single, critical biological process justifies the confidence score."	0.98	High Confidence
+GO:0030071	SPC24 TTK CDC6 PBRM1 MAD2L1BP SMARCB1 ANAPC5 FBXO5 HECW2 IK RIOK2 TPR ARID1A PCID2 TEX14 RAD21 ACTB KNL1 PLK1 SMARCD1 BUB1B GEN1 NSMCE2 SMARCD2 ARID1B CUL3 USP44 BCL7A SMARCC1 XRCC3 MAD1L1 HASPIN NEK6 MAP3K20 PSMG2 BCL7C SMARCC2 ACTL6A KNTC1 SPC25 SMARCD3 SMARCE1 ZWINT CCNB1 BUB3 SMARCA2 ESPL1 ARID2 ZNF207 ACTL6B ANAPC4 SPDL1 ATM BCL7B ANAPC11 CDC16 BRD7 PRAP1 ANAPC15 BIRC5 DUSP1 MAD2L2 DPF3 NDC80 MAD2L1 BUB1 CDC23 DPF1 PHF10 KLHL22 APC CDK5RAP2 RB1 DPF2 CDCA8 UBE2C INCENP SMARCA4 ZWILCH CENPE DLGAP5 CDC20 NUF2 LCMT1 TRIP13 AURKB CENPF DYNC1LI1 ZW10	89	regulation of mitotic metaphase/anaphase transition	Chromosomal Segregation and Cell Cycle Regulation	"1. The proteins SPC24, SPC25, NDC80, KNL1, and ZWINT are components of the kinetochore complex, which is essential for the attachment of chromosomes to the microtubule spindle during mitosis. They play a critical role in ensuring accurate chromosome segregation.
+
+2. The mitotic checkpoint proteins MAD1L1, MAD2L1, MAD2L1BP, BUB1, BUB1B (BUBR1), BUB3, and ZW10 are involved in the spindle assembly checkpoint (SAC), a safety mechanism that prevents the onset of anaphase until all chromosomes are properly attached to the spindle.
+
+3. The anaphase-promoting complex/cyclosome (APC/C) components ANAPC4, ANAPC5, ANAPC11, CDC16, CDC20, CDC23, and CDCA8 regulate the progression of cells through mitosis by targeting specific proteins for degradation, thus controlling the metaphase-to-anaphase transition.
+
+4. The Aurora kinase B (AURKB), INCENP, and survivin (BIRC5) form the chromosomal passenger complex (CPC), which is crucial for chromosome alignment, spindle assembly, and cytokinesis.
+
+5. PLK1, NEK6, TTK (Mps1), and BUB1B are serine/threonine-protein kinases that regulate various stages of the cell cycle, including centrosome duplication, spindle assembly, and the SAC.
+
+6. Cohesin complex proteins RAD21, SMC1, and SMC3 (not listed but inferred from RAD21) maintain sister chromatid cohesion until anaphase onset.
+
+7. The DNA replication licensing factor CDC6 is involved in the formation of the pre-replicative complex, ensuring that DNA replication occurs only once per cell cycle.
+
+8. The chromatin remodeling and histone modification proteins PBRM1, SMARCB1, SMARCC1, SMARCC2, SMARCD1, SMARCD2, SMARCD3, SMARCE1, ARID1A, ARID1B, ARID2, BCL7A, BCL7B, BCL7C, ACTB, ACTL6A, ACTL6B, and SMARCA2 are part of the SWI/SNF complex, which regulates transcription and DNA repair, contributing to cell cycle control.
+
+9. The E3 ubiquitin-protein ligases CUL3 and FBXO5 (Emi1) are involved in the regulation of cell cycle progression by targeting specific proteins for ubiquitination and subsequent proteasomal degradation.
+
+10. DNA repair proteins XRCC3, GEN1, and ATM are involved in the maintenance of genomic stability, which is essential for proper cell cycle progression.
+
+11. The checkpoint kinases BUB1, BUB1B, TTK, and AURKB, along with the spindle checkpoint proteins MAD1L1, MAD2L1, and MAD2L2, ensure that cells do not proceed to anaphase with unaligned or improperly attached chromosomes.
+
+12. The cell cycle regulators CCNB1 (Cyclin B1), CDK5RAP2, and RB1 (Retinoblastoma protein) are involved in the control of cell cycle transitions, particularly the G2/M transition and cell cycle exit.
+
+13. The protease ESPL1 (Separase) cleaves cohesin complexes to allow sister chromatid separation at the onset of anaphase.
+
+14. The microtubule-associated proteins CENPE, CENPF, DLGAP5 (HURP), DYNC1LI1, and KNTC1 (Hec1) are involved in spindle dynamics and chromosome movement.
+
+To summarize, the proteins in this system are predominantly involved in the regulation of the cell cycle, particularly in ensuring accurate chromosomal segregation during mitosis. This includes the formation and function of the kinetochore, the spindle assembly checkpoint, the activation and inactivation of the APC/C, and the regulation of sister chromatid cohesion and separation. The system also includes proteins that contribute to chromatin remodeling, DNA repair, and the overall maintenance of genomic stability, which are essential for proper cell cycle progression."	0.98	High Confidence
+GO:0090660	DNAH9 AQP4 CFAP221 DAW1 ODAD3 CFAP45 CFAP54 KATNIP JHY CCDC39 DNAAF11 CFAP43 SPAG16 ODAD4 NHERF1	15	cerebrospinal fluid circulation	Ciliary Structure and Function	"1. DNAH9, CFAP221, CFAP43, CFAP45, CFAP54, CCDC39, DNAAF11, SPAG16, ODAD3, and ODAD4 are proteins that are primarily associated with the structure and function of cilia. DNAH9 is a dynein axonemal heavy chain involved in the movement of cilia and flagella. CFAP221, CFAP43, CFAP45, and CFAP54 are cilia- and flagella-associated proteins that contribute to the assembly and stability of the axoneme, the core structure of cilia and flagella. CCDC39 and DNAAF11 are involved in the preassembly of dyneins, which are essential for ciliary motility. SPAG16 is a component of the axonemal central apparatus and radial spokes, playing a role in the regulation of ciliary motility. ODAD3 and ODAD4 are part of the outer dynein arm docking complex, which is crucial for the attachment of the outer dynein arm to the microtubule doublet and proper ciliary beating.
+
+2. AQP4 is an aquaporin water channel protein that is found in the cell membranes of astrocytes in the central nervous system and is implicated in maintaining water homeostasis. While not directly related to ciliary function, its inclusion in this system may be due to its role in the transport of water and small solutes, which could indirectly affect the environment in which cilia operate.
+
+3. KATNIP is a protein that interacts with the katanin p60 ATPase-containing subunit A1 and is involved in microtubule severing. Microtubules are a key component of the ciliary axoneme, and the regulation of microtubule dynamics is essential for ciliary function and assembly.
+
+4. JHY is a protein that is involved in the regulation of cell cycle progression and apoptosis. Its role in this system of interacting proteins may be less direct, but it could influence ciliary function through the regulation of cell proliferation and survival.
+
+5. NHERF1 is a scaffolding protein that organizes membrane-associated protein complexes and is involved in the regulation of intracellular signaling pathways. It may play a role in the signaling processes associated with ciliary function or in the maintenance of the ciliary membrane composition.
+
+To summarize, the majority of the proteins in this system are directly involved in the formation, stability, and function of cilia, which are hair-like structures that extend from the surface of many eukaryotic cells and are involved in movement, fluid flow, and sensory perception. The presence of AQP4, KATNIP, JHY, and NHERF1 suggests additional roles in the regulation of the cellular environment and signaling pathways that may impact ciliary function. The system is highly integrated, with proteins contributing to the structural integrity and motility of cilia, as well as to the regulation of the cellular context in which cilia operate."	0.92	High Confidence
+GO:0006754	PRKAG2 TREM2 ATP5MG ATPSCKMT NDUFS8 ATP5MC2 ADCY10 NDUFS5 DMAC2L ATP5MF NDUFB8 ATP8 SDHA NDUFS1 ANTKMT ND3 SDHD TMSB4X NDUFB10 ATP5F1C NDUFB7 ALDOA ND2 NDUFB2 NDUFA1 ATP6V1A NDUFAB1 COX11 ND4L NDUFB1 NDUFV3 ATP5PD NDUFA2 NDUFA8 ND6 FLCN IL4 NDUFB6 ATP5F1A NDUFB5 ATP5PO NDUFA13 ATP6V0C ATP6 NDUFV1 DNAJC30 ATP5MC3 PINK1 NDUFA6 PPARGC1A ATP5F1B ND1 NDUFS2 TAFAZZIN NDUFA11 ND5 NDUFA7 NDUFS6 ND4 ENO1 SLC25A13 ATP5PB NDUFV2 LDHC SPHK2 PARP1 VPS9D1 UQCC3 NDUFA9 ATP5ME TGFB1 NDUFA12 NDUFB9 NDUFS7 NUDT2 ATP5MC1 ATP5PF NDUFB4 NDUFS4 PID1 ATP5MGL NDUFS3 SDHC ATP5F1E NDUFA3 VCP ATP5MJ ATP5MK NDUFA10 ATP5F1D SDHB NDUFC2 NDUFB3 PPARA NDUFB11 LIPA NDUFC1 STOML2 NDUFA5	99	ATP biosynthetic process	Mitochondrial Energy Metabolism and Biogenesis	"The proteins listed are predominantly involved in mitochondrial energy metabolism and biogenesis, which includes the processes of oxidative phosphorylation, ATP synthesis, and maintenance of mitochondrial structure and function.
+
+1. The majority of the proteins, such as NDUFS8, NDUFS5, NDUFB8, NDUFB10, NDUFB7, NDUFA1, NDUFAB1, NDUFB1, NDUFA2, NDUFA8, NDUFB6, NDUFB5, NDUFA13, NDUFV1, NDUFA6, NDUFA11, NDUFA7, NDUFS6, NDUFA9, NDUFA12, NDUFB9, NDUFB4, NDUFS4, NDUFS3, NDUFA3, NDUFA10, NDUFC2, NDUFB3, NDUFB11, NDUFC1, NDUFA5, and components like ND1, ND2, ND3, ND4, ND4L, ND5, ND6, are part of the mitochondrial respiratory chain complexes I, II, III, IV, and V. These complexes are responsible for the electron transport chain and oxidative phosphorylation, which are critical for ATP production.
+
+2. Proteins such as ATP5MG, ATPSCKMT, ATP5MC2, ATP5MF, ATP8, ATP5F1C, ATP6V1A, ATP5PD, ATP5F1A, ATP5PO, ATP6V0C, ATP6, ATP5MC3, ATP5F1B, ATP5MC1, ATP5PF, ATP5MGL, ATP5F1E, ATP5MJ, ATP5MK, ATP5F1D, are subunits of the ATP synthase complex (Complex V), which synthesizes ATP from ADP and inorganic phosphate, powered by a proton gradient across the inner mitochondrial membrane.
+
+3. Proteins like SDHA, SDHD, SDHC, and SDHB are part of succinate dehydrogenase (Complex II), which links the tricarboxylic acid (TCA) cycle and the electron transport chain by converting succinate to fumarate and transferring electrons to ubiquinone.
+
+4. Proteins such as COX11 are involved in the assembly and maintenance of cytochrome c oxidase (Complex IV).
+
+5. Proteins like PINK1 and PARK7 (DJ-1, not listed but related to PINK1) are involved in mitochondrial quality control, specifically in identifying and targeting damaged mitochondria for degradation via mitophagy.
+
+6. Proteins such as PPARGC1A (also known as PGC-1α) are key regulators of mitochondrial biogenesis and energy metabolism.
+
+7. Proteins like ALDOA, ENO1, and LDHC are involved in glycolysis, linking glucose metabolism to mitochondrial function.
+
+8. Proteins such as SLC25A13 (citrin) are involved in the transport of metabolites across the mitochondrial membrane, which is essential for maintaining the TCA cycle and urea cycle.
+
+9. Proteins like FLCN, IL4, TGFB1, PARP1, SPHK2, VCP, PPARA, and LIPA have various roles in cellular signaling, immune response, protein degradation, lipid metabolism, and gene expression regulation, which can indirectly affect mitochondrial function.
+
+10. Proteins such as TMSB4X (thymosin beta-4) have roles in actin sequestration and cellular structure but may also have indirect effects on mitochondrial function.
+
+To summarize, the primary function of this system of interacting proteins is to maintain mitochondrial energy metabolism and biogenesis, ensuring efficient ATP production and overall mitochondrial health. The system is highly integrated, with many proteins contributing to the electron transport chain, ATP synthesis, and the regulation of mitochondrial dynamics and biogenesis."	0.98	High Confidence
+GO:0043615	NR2E1 HEXB GPR183 CCL3 SCRIB CCL2 MMP14 APCDD1 CCR2	9	astrocyte cell migration	Immune Response Modulation and Extracellular Matrix Remodeling	"1. NR2E1, also known as TLX, is a nuclear receptor that plays a role in the regulation of stem cell proliferation and may be involved in brain development. It can influence the immune system indirectly through its effects on neural stem cells and the central nervous system's regulation of immune responses.
+
+2. HEXB encodes the beta subunit of the lysosomal enzyme beta-hexosaminidase, which degrades GM2 gangliosides. Defects in this enzyme can lead to a build-up of GM2 gangliosides, particularly affecting the nervous system. While not directly involved in immune response, lysosomal degradation pathways can influence antigen presentation and cellular waste management.
+
+3. GPR183, also known as EBI2, is a G protein-coupled receptor that is highly expressed in immune cells, including B cells and dendritic cells. It is involved in the regulation of B cell migration and positioning within lymphoid tissues, which is crucial for proper immune function and response.
+
+4. CCL3 and CCL2 are chemokines that play significant roles in the immune response by recruiting monocytes, macrophages, and other inflammatory cells to sites of inflammation. They are involved in various inflammatory and immune processes, including the modulation of the immune response and the promotion of leukocyte infiltration into tissues.
+
+5. SCRIB is a scaffolding protein that plays a role in cell polarity and migration. While not directly involved in the immune response, its role in maintaining cell architecture can indirectly affect immune cell interactions and tissue organization during immune responses.
+
+6. MMP14, a membrane-bound matrix metalloproteinase, is involved in the degradation of the extracellular matrix (ECM). It plays a role in tissue remodeling, which can be crucial during inflammation and wound healing, processes that are often accompanied by immune responses.
+
+7. APCDD1 is a protein that is implicated in the Wnt signaling pathway and hair growth. Its role in immune function is not well characterized, but Wnt signaling can be involved in the regulation of immune cell development and function.
+
+8. CCR2 is a chemokine receptor that binds to CCL2 and mediates its effects. It is primarily expressed on monocytes and is involved in their migration and infiltration into inflammatory sites, which is essential for the initiation and propagation of the immune response.
+
+To summarize, the proteins in this set are involved in various aspects of the immune response, including chemotaxis, immune cell migration, and positioning, as well as the modulation of inflammation. Additionally, some proteins are involved in the remodeling of the extracellular matrix, which is often associated with immune responses and tissue repair. The interplay between these proteins suggests a system that is primarily engaged in modulating the immune response and facilitating the structural changes required for effective immune function and tissue repair."	0.85	Medium Confidence

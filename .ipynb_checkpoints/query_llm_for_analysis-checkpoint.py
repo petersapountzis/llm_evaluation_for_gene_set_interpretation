@@ -63,7 +63,7 @@ out_file = args.output_file
 
 with open(config_file) as json_file:
     config = json.load(json_file)
-    
+
 if customized_prompt:
     # make sure the file exist 
     if os.path.isfile(config['CUSTOM_PROMPT_FILE']):
@@ -75,10 +75,9 @@ if customized_prompt:
         customized_prompt = None
 else:
     customized_prompt = None
-    
-    
+
+
 #load openai key, context, and model used 
-openai.api_key = os.environ['OPENAI_API_KEY']
 
 context = config['CONTEXT']
 model = config['MODEL']
@@ -101,15 +100,15 @@ def main(df):
         #only process None rows 
         if pd.notna(row[f'{column_prefix} Analysis']):
             continue
-        
+
         gene_data = row[gene_column]
         # if gene_data is not a string, then skip
         if type(gene_data) != str:
-            
+
             logger.warning(f'Gene set {idx} is not a string, skipping')
             continue
         genes = gene_data.split(gene_sep)
-        
+
         if len(genes) >1000:
             logger.warning(f'Gene set {idx} is too big, skipping')
             continue
@@ -128,7 +127,7 @@ def main(df):
                 print("Using server model")
                 analysis, error_message= server_model_chat(context, prompt, model, temperature, max_tokens,LOG_FILE, seed)
 
-            
+
             if analysis:
                 # print(analysis)
                 llm_name, llm_score, llm_analysis = process_analysis(analysis)
@@ -137,7 +136,7 @@ def main(df):
                     llm_score_value =  float(re.sub("[^0-9.-]", "", llm_score))
                 except ValueError:
                     llm_score_value = llm_score
-                
+
                 df.loc[idx, f'{column_prefix} Name'] = llm_name
                 df.loc[idx, f'{column_prefix} Analysis'] = llm_analysis
                 df.loc[idx, f'{column_prefix} Score'] = llm_score_value
@@ -146,13 +145,13 @@ def main(df):
                 logger.info(f'Success for {idx} {column_prefix}.')
                 if finger_print:
                     logger.info(f'GPT_Fingerprint for {idx}: {finger_print}')
-                    
+
             else:
                 if error_message:
                     logger.error(f'Error for query gene set {idx}: {error_message}')
                 else:
                     logger.error(f'Error for query gene set {idx}: No analysis returned')
-                    
+
         except Exception as e:
             logger.error(f'Error for {idx}: {e}')
             continue
@@ -161,7 +160,7 @@ def main(df):
             # bin scores into no score, low score, medium score, high score
             bins = [-np.inf, 0, 0.79, 0.86, np.inf] # 0 is no score (name not assigned), between 0 to 0.79 is low score, between 0.8 to 0.86 is medium score, above 0.86 is high score
             labels = ['Name not assigned', 'Low Score', 'Medium Score', 'High Score']  # Define the corresponding labels
-            
+
             df[f'{column_prefix} Score bins'] = pd.cut(df[f'{column_prefix} Score'], bins=bins, labels=labels)
             save_progress(df, analysis_dict, out_file)
             # df.to_csv(f'{out_file}.tsv', sep='\t', index=True)
@@ -179,13 +178,13 @@ if __name__ == "__main__":
 
     # Only process the specified range of genes
     df = raw_df.iloc[ind_start:ind_end]
-    
+
     if '-' in model:
         name_fix = '_'.join(model.split('-')[:2])
     else:
         name_fix = model.replace(':', '_')
     column_prefix = name_fix + '_default' #start from default gene set
-    
+
     if args.initialize:
         # initialize the input file with llm names, analysis and score to None
         df[f'{column_prefix} Name'] = None
@@ -193,7 +192,7 @@ if __name__ == "__main__":
         df[f'{column_prefix} Score'] = -np.inf
     print(df[f'{column_prefix} Analysis'].isna().sum())
     main(df)  ## run with the real set 
-    
+
     # if run_contaminated is true, then run the pipeline for contaminated gene sets
     if args.run_contaminated:
         ## run the pipeline for contaiminated gene sets 
@@ -202,11 +201,11 @@ if __name__ == "__main__":
         for col in contaminated_columns:
             gene_column = col ## Note need to change the gene_column to the contaminated column
             contam_prefix = '_'.join(col.split('_')[0:2])
-            
+
             column_prefix = name_fix + '_' +contam_prefix
             print(column_prefix)
-            
-            
+
+
             if args.initialize:
                 # initialize the input file with llm names, analysis and score to None
                 df[f'{column_prefix} Name'] = None
